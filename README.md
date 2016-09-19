@@ -20,7 +20,7 @@ $ npm install store-gem.js
 ## 本地存储APIs
 
 ```javascript
-var myStore = new store()			//可选参数：sessionStorage和localStorage 默认localStorage
+var myStore = new store()			//可选参数：sessionStorage和localStorage 默认localStorage'
 ```
 ```javascript
 myStore.set(key, data,timeouts);	//单个存储字符串数据 timeouts 为过期时间
