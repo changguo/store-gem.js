@@ -1,5 +1,7 @@
 /**
  * Created by Tccpc on 2016/9/22.
+ *
+ *https://github.com/tccpc/store-gem.js
  */
  (function(f) {
      if (typeof exports === "object" && typeof module !== "undefined") {
