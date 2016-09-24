@@ -1,0 +1,19 @@
+{
+  "name": "store-gem.js",
+  "version": "1.0.1",
+  "description": "webStorage封装库-支持cookie解决方案",
+  "main": "store-gem.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tccpc/store-gem.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tccpc/store-gem.js/issues"
+  },
+  "homepage": "https://github.com/tccpc/store-gem.js#readme"
+}
