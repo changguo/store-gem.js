@@ -59,6 +59,7 @@
                 for (var keyIndex in key) this.set(keyIndex, key[keyIndex],val); //此时的 val = timeouts
             }else if(key){
                 key = checkString(key);
+                val = val || null;
                 timeouts = createTimeouts(timeouts);
                 var valObj = {
                     value:val,
@@ -142,6 +143,13 @@
         },
         this.length = function() {
             return storage.length;
+        },
+        this.search = function(str) {
+            var arr = this.keys(), returnObj = {};
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i].indexOf(str) > -1) returnObj[arr[i]] = this.get(arr[i]);
+            }
+            return returnObj;
         },
         this.setTimeout = function(key,timeouts){
             this.clearExpires();
