@@ -1,6 +1,6 @@
 #store-gem.js
 
-本地存储localstorage/sessionstorage的封装,cookie完美解决方案
+本地存储localstorage/sessionstorage的封装,cookie完美解决方案.
 
 ## 安装
 
